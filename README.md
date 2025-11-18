@@ -5,34 +5,28 @@ Webstack网址导航
 
 ## 🚀 快速开始
 
-### 🚀 部署到 Cloudflare（推荐）
-
-**1. Fork 本项目**
-- 点击页面右上角的 **"Fork"** 按钮
-- 将项目 Fork 到你的 GitHub 账号下
-
-**2. 在 Cloudflare Pages 控制台部署**
-1. 访问 [Cloudflare Dashboard](https://dash.cloudflare.com)
-2. 注册/登录 Cloudflare 账号（免费）
-3. 点击左侧菜单 **"Workers & Pages"**
-4. 点击 **"Create application"** → **"Pages"** → **"Connect to Git"**
-5. 授权 GitHub 并选择你 Fork 的 `nav` 仓库
-6. （可选）在 **Environment Variables** 里添加你的环境变量（如需用到管理员功能）  
-7. 点击 **"Save and Deploy"**
+### 部署到 GitHub Pages
+1. 在 GitHub 仓库页面点击 Settings
+2. 左侧菜单选择 Pages
+3. 在 Source 下拉菜单中选择分支（通常是 main 或 gh-pages）
+4. 点击 Save
+5. 网站地址：https://你的用户名.github.io/仓库名
 
 ✅ **完成！** 几分钟后你就有了自己的导航网站，每次修改代码都会自动重新部署。
+### 使用自定义域名
+1. 添加 CNAME 文件
+``` bash
+echo "www.yourdomain.com" > CNAME
+```
+2. 配置 DNS
+在域名服务商处添加 DNS 记录：
+``` text
+类型: CNAME
+名称: www
+值: 你的用户名.github.io
+```
 
-**3. 自定义你的导航**
-- 编辑 `src/mock/mock_data.js` 文件，添加你自己的网站分类和链接
-- 提交更改，Cloudflare 会自动重新部署
-
-**4. 绑定自定义域名（可选）**
-- 在 Cloudflare Pages 项目设置中点击 **"Custom domains"**
-- 添加你的域名并按提示配置 DNS
-
-
-关于图片资源
----
+## 关于图片资源
 ```/assets/images/logos/default.png``` 这是网站标签的默认图标
 
 ```/assets/images/logos``` 这里是所有网站内的图标切图，尺寸均为120px*120px

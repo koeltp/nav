@@ -1,0 +1,228 @@
+{
+  "navigation": [
+    {
+      "name": "AI应用",
+      "icon": "linecons-star",
+      "href": "#AI应用",
+      "class": "smooth"
+    },
+    {
+      "name": "邮箱",
+      "icon": "linecons-doc",
+      "href": "#邮箱",
+      "class": "smooth"
+    },
+    {
+      "name": "技术文档",
+      "icon": "linecons-doc",
+      "href": "#技术文档",
+      "class": "smooth"
+    },
+    {
+      "name": "GitHub",
+      "icon": "linecons-lightbulb",
+      "submenu": [
+        {
+          "name": "Python",
+          "href": "#Python",
+          "class": "smooth"
+        },
+        {
+          "name": "AI",
+          "href": "#AI",
+          "class": "smooth"
+        },
+        {
+          "name": "Other",
+          "href": "#other",
+          "class": "smooth",
+          "badge": {
+            "text": "Hot",
+            "class": "label-pink"
+          }
+        }
+      ]
+    },
+    {
+      "name": "导航网站",
+      "icon": "linecons-star",
+      "href": "#导航网站",
+      "class": "smooth"
+    },
+    {
+      "name": "关于本站",
+      "icon": "linecons-heart",
+      "href": "about.html",
+      "badge": {
+        "text": "♥︎",
+        "class": "label-Primary"
+      }
+    }
+  ],
+  "categories": {
+    "AI应用": [
+      {
+        "name": "DeepSeek",
+        "url": "https://chat.deepseek.com/",
+        "logo": "./assets/images/logos/deepseek.svg",
+        "description": "2025年 AI 最强黑马，国产开源 AI 神器，智能对话、 写作编.程全能，支持多模态任务和高效推理。",
+        "label": "label-info"
+      },
+     
+      {
+        "name": "chatgpt",
+        "url": "https://chatgpt.com/",
+        "logo": "./assets/images/logos/chatgpt.png",
+        "description": "全球超火 AI，OpenAI多模态 AI 助手，支持写作、编程、翻译及多模态交互，提升办公与学术效率",
+        "label": "label-info"
+      },
+      {
+        "name": "豆包",
+        "url": "https://www.doubao.com/chat/",
+        "logo": "./assets/images/logos/doubao.png",
+        "description": "字节跳动旗下 AI 智能助手。",
+        "label": "label-info"
+      },
+      {
+        "name": "Youtube",
+        "url": "https://www.youtube.com/",
+        "logo": "./assets/images/logos/youtube.png",
+        "description": "全球最大的学习分享平台",
+        "label": "label-info"
+      },
+      {
+        "name": "Google",
+        "url": "https://www.google.com/",
+        "logo": "./assets/images/logos/google.png",
+        "description": "全球最大的UI学习分享平台",
+        "label": "label-info"
+      }
+    ],
+    "推荐": [
+      {
+        "name": "阿里云",
+        "url": "https://www.aliyun.com",
+        "logo": "./assets/images/logos/aliyun.png",
+        "description": "点击领取2000元限量云产品优惠券",
+        "label": "label-info"
+      },
+      {
+        "name": "电鸭社区",
+        "url": "https://eleduck.com/",
+        "logo": "./assets/images/logos/eleduck.png",
+        "description": "国内最早的远程工作社区，也是互联网工作者们的聚集地，非常适合设计开发小伙伴关注",
+        "label": "label-info"
+      },
+      {
+        "name": "访问统计",
+        "url": "https://analytics.google.com/analytics/web/?hl=zh-cn#/a375545387p513615841/reports/intelligenthome",
+        "logo": "./assets/images/logos/analytics_standard_icon.png",
+        "description": "Google Analytics 访问统计",
+        "label": "label-info"
+      }
+    ],
+    "邮箱": [
+      {
+        "name": "QQ邮箱",
+        "url": "https://mail.qq.com/",
+        "logo": "./assets/images/logos/qqmail_logo.png",
+        "description": "QQ邮箱，常联系！",
+        "label": "label-info"
+      },
+      {
+        "name": "163邮箱",
+        "url": "https://mail.163.com/",
+        "logo": "./assets/images/logos/mail163logo.webp",
+        "description": "你的专业电子邮局",
+        "label": "label-info"
+      },
+      {
+        "name": "阿里企业邮箱",
+        "url": "https://qiye.aliyun.com/",
+        "logo": "./assets/images/logos/emailalilogo.ico",
+        "description": "阿里云企业邮箱，专业、安全、稳定",
+        "label": "label-info"
+      },
+      {
+        "name": "谷歌邮箱",
+        "url": "https://mail.google.com/",
+        "logo": "./assets/images/logos/gmaillogo.webp",
+        "description": "Google邮箱，全球使用最广泛的邮箱服务",
+        "label": "label-info"
+      },
+      {
+        "name": "proton邮箱",
+        "url": "https://account.proton.me/mail",
+        "logo": "./assets/images/logos/protonmail.webp",
+        "description": "安全加密邮箱，保护你的隐私",
+        "label": "label-info"
+      }
+    ],
+    "技术文档": [
+      {
+        "name": "LangChain",
+        "url": "https://docs.langchain.com/",
+        "logo": "./assets/images/logos/langchain.png",
+        "description": "LangChain 官方文档, 构建基于语言模型的应用框架, 提供丰富的工具和组件。",
+        "label": "label-info"
+      },
+       {
+        "name": "DeepSeek API文档",
+        "url": "https://www.deepseek.com/",
+        "logo": "./assets/images/logos/deepseek.svg",
+        "description": "DeepSeek 开放平台 API 文档，助力开发者轻松集成 AI 能力，打造智能应用。",
+        "label": "label-info"
+      },
+       {
+        "name": "Ollama API文档",
+        "url": "https://docs.ollama.com/",
+        "logo": "./assets/images/logos/ollama.avif",
+        "description": "Ollama 是快速上手使用大型语言模型（如 gpt-oss、Gemma 3、DeepSeek-R1、Qwen3 等）的最简单方法。",
+        "label": "label-info"
+      }
+    ],
+    "Python": [
+      {
+        "name": "Python面试题",
+        "url": "https://github.com/taizilongxu/interview_python",
+        "logo": "./assets/images/logos/pythonlogo.png",
+        "description": "关于Python的面试题",
+        "label": "label-info"
+      }
+    ],
+     "AI": [
+      {
+        "name": "AI-Trader",
+        "url": "https://github.com/HKUDS/AI-Trader",
+        "logo": "./assets/images/logos/AI-Trader-logo.png",
+        "description": "一个AI交易代理系统，让多个大语言模型在纳斯达克100、上证50和加密货币市场中完全自主决策、同台竞技！",
+        "label": "label-info"
+      }
+    ],
+    "other": [
+      {
+        "name": "ALLinSSL",
+        "url": "https://github.com/allinssl/allinssl",
+        "logo": "./assets/images/logos/allinssl.svg",
+        "description": "一键自动化申请、续期、部署、监控所有 SSL/TLS 证书，支持跨云环境和多 CA (coding~)，告别繁琐配置和高昂费用。",
+        "label": "label-info"
+      },
+      {
+        "name": "TypeWords",
+        "url": "https://typewords.cc/",
+        "logo": "./assets/images/logos/typewordslogo.png",
+        "description": "练习英语，一次敲击，一点进步。",
+        "label": "label-info"
+      }
+    ],
+    "导航网站": [
+      {
+        "name": "格姗导航",
+        "url": "https://gesdh.cn/",
+        "logo": "./assets/images/logos/gesdh.png",
+        "description": "同类导航网站。",
+        "label": "label-info"
+      }
+    ]
+  }
+}
