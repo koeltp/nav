@@ -68,7 +68,6 @@
         "description": "2025年 AI 最强黑马，国产开源 AI 神器，智能对话、 写作编.程全能，支持多模态任务和高效推理。",
         "label": "label-info"
       },
-     
       {
         "name": "chatgpt",
         "url": "https://chatgpt.com/",
@@ -166,14 +165,14 @@
         "description": "LangChain 官方文档, 构建基于语言模型的应用框架, 提供丰富的工具和组件。",
         "label": "label-info"
       },
-       {
+      {
         "name": "DeepSeek API文档",
         "url": "https://www.deepseek.com/",
         "logo": "./assets/images/logos/deepseek.svg",
         "description": "DeepSeek 开放平台 API 文档，助力开发者轻松集成 AI 能力，打造智能应用。",
         "label": "label-info"
       },
-       {
+      {
         "name": "Ollama API文档",
         "url": "https://docs.ollama.com/",
         "logo": "./assets/images/logos/ollama.avif",
@@ -190,7 +189,7 @@
         "label": "label-info"
       }
     ],
-     "AI": [
+    "AI": [
       {
         "name": "AI-Trader",
         "url": "https://github.com/HKUDS/AI-Trader",
@@ -200,6 +199,13 @@
       }
     ],
     "other": [
+      {
+        "name": "面试导航",
+        "url": "https://github.com/AnsonZnl/interview-nav",
+        "logo": "./assets/images/logos/default.png",
+        "description": "这个仓库收集 IT 行业各个岗位的优质面试题资源和简历编写指南，这些资源可以帮助大家找到满意的工作。",
+        "label": "label-info"
+      },
       {
         "name": "ALLinSSL",
         "url": "https://github.com/allinssl/allinssl",
