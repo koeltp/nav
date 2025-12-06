@@ -36,7 +36,7 @@
           "class": "smooth"
         },
         {
-          "name": "Eth",
+          "name": "ETH",
           "href": "#Eth",
           "class": "smooth"
         }
@@ -62,6 +62,12 @@
       "name": "导航网站",
       "icon": "linecons-star",
       "href": "#导航网站",
+      "class": "smooth"
+    },
+    {
+      "name": "工具",
+      "icon": "linecons-lock",
+      "href": "#工具",
       "class": "smooth"
     },
     {
@@ -115,29 +121,6 @@
         "url": "https://www.google.com/",
         "logo": "./assets/images/logos/google.png",
         "description": "全球最大的UI学习分享平台",
-        "label": "label-info"
-      }
-    ],
-    "Other": [
-      {
-        "name": "阿里云",
-        "url": "https://www.aliyun.com",
-        "logo": "./assets/images/logos/aliyun.png",
-        "description": "点击领取2000元限量云产品优惠券",
-        "label": "label-info"
-      },
-      {
-        "name": "电鸭社区",
-        "url": "https://eleduck.com/",
-        "logo": "./assets/images/logos/eleduck.png",
-        "description": "国内最早的远程工作社区，也是互联网工作者们的聚集地，非常适合设计开发小伙伴关注",
-        "label": "label-info"
-      },
-      {
-        "name": "访问统计",
-        "url": "https://analytics.google.com/analytics/web/?hl=zh-cn#/a375545387p513615841/reports/intelligenthome",
-        "logo": "./assets/images/logos/analytics_standard_icon.png",
-        "description": "Google Analytics 访问统计",
         "label": "label-info"
       }
     ],
@@ -300,6 +283,13 @@
         "logo": "https://docs.soliditylang.org/en/v0.8.31/_static/img/logo.svg",
         "description": "Solidity 是以太坊智能合约的主要编程语言，这里是其官方文档，包含语法、最佳实践和示例代码。",
         "label": "label-info"
+      },
+      {
+        "name": "Solidity 文档",
+        "url": "https://dukedaily.github.io/solidity-expert/cn/",
+        "logo": "https://github.com/fluidicon.png",
+        "description": "4年打磨-2022年海外一线大厂-以太坊开发教程。",
+        "label": "label-info"
       }
     ],
     "Redis": [
@@ -308,6 +298,52 @@
         "url": "http://doc.redisfans.com/",
         "logo": "https://redis.io/icon.png",
         "description": "Redis 命令参考，包含常用命令的详细说明和示例。",
+        "label": "label-info"
+      }
+    ],
+    "工具":[
+{
+        "name": "在线工具",
+        "url": "https://tool.lu/mine/",
+        "logo": "https://tool.lu/favicon.ico",
+        "description": "提供各种实用的在线工具，方便日常工作和学习。",
+        "label": "label-info"
+      },
+      {
+        "name": "好维持",
+        "url": "https://haoweichi.com/",
+        "logo": "https://haoweichi.com/Public/img/haoweichi.ico",
+        "description": "随机生成虚构美国身份，包括姓名，地址，电话，职称，信用卡，身高，体重等信息，获取美国人信息，获取美国人地址",
+        "label": "label-info"
+      }
+    ],
+    "Other": [
+      {
+        "name": "爱听音乐网",
+        "url": "https://www.2t58.com/",
+        "logo": "https://www.2t58.com/favicon.ico",
+        "description": "爱听音乐网提供高质量音乐下载以及在线收听服务。",
+        "label": "label-info"
+      },
+      {
+        "name": "阿里云",
+        "url": "https://www.aliyun.com",
+        "logo": "./assets/images/logos/aliyun.png",
+        "description": "点击领取2000元限量云产品优惠券",
+        "label": "label-info"
+      },
+      {
+        "name": "电鸭社区",
+        "url": "https://eleduck.com/",
+        "logo": "./assets/images/logos/eleduck.png",
+        "description": "国内最早的远程工作社区，也是互联网工作者们的聚集地，非常适合设计开发小伙伴关注",
+        "label": "label-info"
+      },
+      {
+        "name": "访问统计",
+        "url": "https://analytics.google.com/analytics/web/?hl=zh-cn#/a375545387p513615841/reports/intelligenthome",
+        "logo": "./assets/images/logos/analytics_standard_icon.png",
+        "description": "Google Analytics 访问统计",
         "label": "label-info"
       }
     ]

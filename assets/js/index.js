@@ -96,7 +96,7 @@ class HomePageManager {
                          data-original-title="${item.url}">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
-                                <img data-src="${item.logo}" class="lozad img-circle" width="40">
+                                <img data-src="${item.logo}" class="lozad img-circle item-logo">
                             </a>
                             <div class="xe-comment">
                                 <a href="#" class="xe-user-name overflowClip_1">

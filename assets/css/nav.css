@@ -70,6 +70,11 @@
     padding: 7px 0;
 }
 
+.item-logo {
+    width: 40px;
+    height: 54px;
+}
+
 /* 导航页通用链接样式 */
 .about a {
     color: #FF9800;
@@ -113,4 +118,3 @@
     color: orange !important;
     text-decoration: none;
 }
-
