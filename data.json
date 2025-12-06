@@ -1,32 +1,50 @@
 {
   "navigation": [
     {
-      "name": "AI应用",
+      "name": "应用",
       "icon": "linecons-star",
-      "href": "#AI应用",
-      "class": "smooth"
+      "submenu":[
+        {
+          "name":"AI应用",
+          "href": "#AI应用",
+          "class": "smooth"
+        },{
+          "name":"邮箱",
+          "href": "#邮箱",
+          "class": "smooth"
+        }
+      ]
     },
     {
-      "name": "邮箱",
+      "name": "Tech",
       "icon": "linecons-doc",
-      "href": "#邮箱",
-      "class": "smooth"
-    },
-    {
-      "name": "技术文档",
-      "icon": "linecons-doc",
-      "href": "#技术文档",
-      "class": "smooth"
-    },
-    {
-      "name": "GitHub",
-      "icon": "linecons-lightbulb",
       "submenu": [
+        {
+          "name": "Eth",
+          "href": "#Eth",
+          "class": "smooth"
+        },
+        {
+          "name": "AI Docs",
+          "href": "#AIDocs",
+          "class": "smooth"
+        },
         {
           "name": "Python",
           "href": "#Python",
           "class": "smooth"
-        },
+        }]
+    },
+    {
+      "name": "前端资源",
+      "icon": "linecons-doc",
+      "href": "#前端资源",
+      "class": "smooth"
+    },
+    {
+      "name": "GitHub 精选",
+      "icon": "linecons-lightbulb",
+      "submenu": [
         {
           "name": "AI",
           "href": "#AI",
@@ -57,6 +75,12 @@
         "text": "♥︎",
         "class": "label-Primary"
       }
+    },
+    {
+      "name": "推荐",
+      "icon": "linecons-cog",
+      "href": "#推荐",
+      "class": "smooth"
     }
   ],
   "categories": {
@@ -157,7 +181,7 @@
         "label": "label-info"
       }
     ],
-    "技术文档": [
+    "AIDocs": [
       {
         "name": "LangChain",
         "url": "https://docs.langchain.com/",
@@ -180,12 +204,49 @@
         "label": "label-info"
       }
     ],
+    "前端资源": [
+      {
+        "name": "微前端",
+        "url": "https://jd-opensource.github.io/micro-app/docs.html#/",
+        "logo": "./assets/images/logos/jdmicroapplogo.png",
+        "description": "京东微前端开源框架，支持多种技术栈，助力构建大型复杂应用。",
+        "label": "label-info"
+      }
+    ],
     "Python": [
+      {
+        "name": "Python 官方文档",
+        "url": "https://docs.python.org/zh-cn/3/",
+        "logo": "./assets/images/logos/pythonlogo.png",
+        "description": "Python 官方文档，包含语言参考、库参考和教程等内容。",
+        "label": "label-info"
+      },
+      {
+        "name": "Awesome Python 中文版",
+        "url": "https://github.com/jobbole/awesome-python-cn",
+        "logo": "./assets/images/logos/pythonlogo.png",
+        "description": "Awesome Python 中文版，收集了大量优质的 Python 资源和库。",
+        "label": "label-info"
+      },
       {
         "name": "Python面试题",
         "url": "https://github.com/taizilongxu/interview_python",
         "logo": "./assets/images/logos/pythonlogo.png",
         "description": "关于Python的面试题",
+        "label": "label-info"
+      },
+      {
+        "name": "Stackoverflow 上关于 Python 的问题",
+        "url": "https://taizilongxu.gitbooks.io/stackoverflow-about-python/content/",
+        "logo": "./assets/images/logos/pythonlogo.png",
+        "description": "Stackoverflow 上关于 Python 的问题合集",
+        "label": "label-info"
+      },
+      {
+        "name": "Python 进阶视频教程",
+        "url": "https://www.bilibili.com/video/BV1P34y1E7VE?spm_id_from=333.788.videopod.episodes&vd_source=c6de1c3151a3881a55654f6e55752c5b&p=3",
+        "logo": "./assets/images/logos/pythonlogo.png",
+        "description": "Python 进阶视频教程，适合有一定基础的 Python 开发者学习",
         "label": "label-info"
       }
     ],
@@ -227,6 +288,22 @@
         "url": "https://gesdh.cn/",
         "logo": "./assets/images/logos/gesdh.png",
         "description": "同类导航网站。",
+        "label": "label-info"
+      }
+    ],
+    "Eth": [
+      {
+        "name": "WTF Academy",
+        "url": "https://www.wtf.academy/zh",
+        "logo": "./assets/images/logos/default.png",
+        "description": "WTF Academy 提供以太坊和区块链技术的深入学习资源，涵盖智能合约开发、去中心化应用等内容，助力开发者掌握前沿技术。",
+        "label": "label-info"
+      },
+      {
+        "name": "Solidity 文档",
+        "url": "https://docs.soliditylang.org/",
+        "logo": "./assets/images/logos/default.png",
+        "description": "Solidity 是以太坊智能合约的主要编程语言，这里是其官方文档，包含语法、最佳实践和示例代码。",
         "label": "label-info"
       }
     ]

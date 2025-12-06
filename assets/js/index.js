@@ -13,7 +13,6 @@ class HomePageManager {
 
         // 动态获取所有分类名称
         const categoryNames = Object.keys(categories);
-        
         // 根据导航结构确定分类渲染顺序
         const orderedCategories = this.getOrderedCategories(categoryNames, navigation);
         
