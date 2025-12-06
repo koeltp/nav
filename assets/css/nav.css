@@ -114,6 +114,12 @@
     font-size: 0.95em;
 }
 
+.footer-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #979898;
+}
+
 .footer-text a {
     color: orange !important;
     text-decoration: none;

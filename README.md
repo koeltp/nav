@@ -1,5 +1,4 @@
 # 太皮导航
-===
 ### 演示网站: [➡️ nav.taipi.top](https://nav.taipi.top)
 
 
@@ -35,6 +34,6 @@ echo "www.yourdomain.com" > CNAME
 
 ## License
 
-Copyright © 2017-2023 **[nav.taipi.top](https://nav.taipi.top)** Released under the **MIT License**.
+Copyright © 2025 **[太皮导航](https://nav.taipi.top)** Released under the **MIT License**.
 
 

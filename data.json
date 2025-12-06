@@ -2,7 +2,7 @@
   "navigation": [
     {
       "name": "应用",
-      "icon": "linecons-star",
+      "icon": "fa fa-android",
       "submenu": [
         {
           "name": "AI应用",
@@ -18,7 +18,7 @@
     },
     {
       "name": "Tech",
-      "icon": "linecons-tv",
+      "icon": "fa-desktop",
       "submenu": [
         {
           "name": "Python",
@@ -44,7 +44,7 @@
     },
     {
       "name": "前端资源",
-      "icon": "linecons-doc",
+      "icon": "fa-html5",
       "href": "#前端资源",
       "class": "smooth"
     },
@@ -59,20 +59,20 @@
       }
     },
     {
-      "name": "导航网站",
-      "icon": "linecons-star",
-      "href": "#导航网站",
+      "name": "优秀博客",
+      "icon": "fa fa-rss",
+      "href": "#优秀博客",
       "class": "smooth"
     },
     {
       "name": "工具",
-      "icon": "linecons-lock",
+      "icon": "fa-wrench",
       "href": "#工具",
       "class": "smooth"
     },
     {
       "name": "Other",
-      "icon": "linecons-cog",
+      "icon": "fa fa-asterisk",
       "href": "#Other",
       "class": "smooth"
     },
@@ -260,12 +260,18 @@
         "label": "label-info"
       }
     ],
-    "导航网站": [
+    "优秀博客": [
       {
-        "name": "格姗导航",
-        "url": "https://gesdh.cn/",
-        "logo": "./assets/images/logos/gesdh.png",
-        "description": "同类导航网站。",
+        "name": "廖雪峰的官方网站",
+        "url": "https://liaoxuefeng.com/",
+        "logo": "https://liaoxuefeng.com/static/logo.svg",
+        "description": "廖雪峰的官方网站，提供高质量的编程教程和技术文章，涵盖 Python、JavaScript、Git 等多个领域。",
+        "label": "label-info"
+      },{
+        "name": "掘金刷题",
+        "url": "https://juejin.cn/problemset?utm_source=practice&utm_medium=liaoxuefeng&utm_campaign=competition",
+        "logo": "https://lf-cdn.marscode.cn/obj/marscode-bucket-cn/icube-mars/static/image/app_icon_152.png",
+        "description": "掘金刷题平台，提供丰富的编程题库和在线评测，帮助开发者提升编程能力。",
         "label": "label-info"
       }
     ],
