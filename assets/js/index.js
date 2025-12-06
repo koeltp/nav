@@ -2,6 +2,7 @@
 class HomePageManager {
     constructor() {
         this.navigationManager = navigationManager;
+        this.navData = null; // 存储导航数据
     }
 
     // 渲染内容区域
@@ -16,9 +17,11 @@ class HomePageManager {
         // 根据导航结构确定分类渲染顺序
         const orderedCategories = this.getOrderedCategories(categoryNames, navigation);
         
-        orderedCategories.forEach(categoryName => {
-            if (categories[categoryName]) {
-                contentHTML += this.renderCategorySection(categoryName, categories[categoryName]);
+        orderedCategories.forEach(categoryKey => {
+            if (categories[categoryKey]) {
+                // 获取导航中对应的显示名称
+                const displayName = this.getDisplayNameFromNavigation(categoryKey, navigation);
+                contentHTML += this.renderCategorySection(categoryKey, displayName, categories[categoryKey]);
             }
         });
 
@@ -53,8 +56,31 @@ class HomePageManager {
         return [...navOrder, ...categoryNames.filter(cat => !navOrder.includes(cat))];
     }
 
+    // 从导航数据中获取分类的显示名称
+    getDisplayNameFromNavigation(categoryKey, navigation) {
+        // 遍历导航菜单查找匹配的分类
+        for (const item of navigation) {
+            // 检查主菜单项
+            if (item.href && item.href === `#${categoryKey}`) {
+                return item.name || categoryKey;
+            }
+            
+            // 检查子菜单项
+            if (item.submenu) {
+                for (const subItem of item.submenu) {
+                    if (subItem.href && subItem.href === `#${categoryKey}`) {
+                        return subItem.name || categoryKey;
+                    }
+                }
+            }
+        }
+        
+        // 如果没找到，返回原始的categoryKey
+        return categoryKey;
+    }
+
     // 渲染分类部分
-    renderCategorySection(title, items) {
+    renderCategorySection(categoryKey, displayName, items) {
         if (!items || items.length === 0) return '';
         
         const rows = [];
@@ -87,7 +113,7 @@ class HomePageManager {
         
         return `
             <h4 class="text-gray">
-                <i class="linecons-tag" style="margin-right: 7px;" id="${title}"></i>${title}
+                <i class="linecons-tag" style="margin-right: 7px;" id="${categoryKey}"></i>${displayName}
             </h4>
             ${rows.join('')}
             <br />
@@ -113,10 +139,13 @@ class HomePageManager {
     initHomePage() {
         document.addEventListener('DOMContentLoaded', () => {
             this.navigationManager.loadJSON((data) => {
+                // 保存导航数据
+                this.navData = data;
+                
                 // 渲染导航菜单
                 this.navigationManager.renderNavigation(data.navigation);
                 
-                // 渲染内容区域，传入导航数据用于排序
+                // 渲染内容区域，传入导航数据用于排序和获取显示名称
                 this.renderContent(data.categories, data.navigation);
                 
                 // 初始化交互功能
