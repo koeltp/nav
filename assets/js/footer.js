@@ -31,7 +31,7 @@ function generateFooter() {
 function initUptimeCounter() {
     // 设置网站开始运行的时间（修改为您网站实际上线的时间）
     // 格式：年, 月-1, 日, 时, 分, 秒
-    const startDate = new Date(2025, 11, 1, 19, 0, 0); // 2025年12月6日 19:00:00
+    const startDate = new Date(2025, 10, 18, 11, 12, 0); // 2025年12月6日 19:00:00
     
     // 数字颜色配置
     const colors = {
