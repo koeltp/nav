@@ -31,16 +31,19 @@
     display: block;
     margin-right: 10px;
 }
+
 .xe-comment {
     transform: translateY(-50%);
     position: absolute;
     margin-left: 50px;
     top: 50%;
 }
+
 .xe-comment p {
     margin-bottom: 0px;
     margin-right: 15px;
 }
+
 .overflowClip_1 {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -48,6 +51,7 @@
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
 }
+
 .overflowClip_2 {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -57,7 +61,7 @@
 }
 
 
-.submit-tag{
+.submit-tag {
     margin-top: 50px;
 
 }
@@ -65,3 +69,48 @@
 .img-circle {
     padding: 7px 0;
 }
+
+/* 导航页通用链接样式 */
+.about a {
+    color: #FF9800;
+    /* 橙色主题色，比 'orange' 更柔和 */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+/* 鼠标悬停效果 */
+.about a:hover {
+    color: #FF5722;
+    /* 悬停时加深颜色 */
+    text-decoration: underline;
+}
+
+/* 重点强调文本（如项目名称） */
+.about strong {
+    font-weight: 700;
+    color: #333;
+    /* 深色文字确保可读性 */
+}
+
+/* 为GitHub和邮箱链接添加特定图标（可选） */
+.about a[href*="github.com"]::before {
+    content: "\f09b";
+    font-family: 'FontAwesome';
+    font-size: 0.95em;
+    margin-right: 5px;
+    /* 增加右边距，调整图标与文字间距 */
+    display: inline-block;
+    /* 确保margin生效 */
+}
+
+.about a[href^="mailto:"]::before {
+    content: "✉ ";
+    font-size: 0.95em;
+}
+
+.footer-text a {
+    color: orange !important;
+    text-decoration: none;
+}
+

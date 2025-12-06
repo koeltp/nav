@@ -3,13 +3,14 @@
     {
       "name": "应用",
       "icon": "linecons-star",
-      "submenu":[
+      "submenu": [
         {
-          "name":"AI应用",
+          "name": "AI应用",
           "href": "#AI应用",
           "class": "smooth"
-        },{
-          "name":"邮箱",
+        },
+        {
+          "name": "邮箱",
           "href": "#邮箱",
           "class": "smooth"
         }
@@ -17,11 +18,11 @@
     },
     {
       "name": "Tech",
-      "icon": "linecons-doc",
+      "icon": "linecons-tv",
       "submenu": [
         {
-          "name": "Eth",
-          "href": "#Eth",
+          "name": "Python",
+          "href": "#Python",
           "class": "smooth"
         },
         {
@@ -30,10 +31,16 @@
           "class": "smooth"
         },
         {
-          "name": "Python",
-          "href": "#Python",
+          "name": "Redis",
+          "href": "#Redis",
           "class": "smooth"
-        }]
+        },
+        {
+          "name": "Eth",
+          "href": "#Eth",
+          "class": "smooth"
+        }
+      ]
     },
     {
       "name": "前端资源",
@@ -44,27 +51,23 @@
     {
       "name": "GitHub 精选",
       "icon": "linecons-lightbulb",
-      "submenu": [
-        {
-          "name": "AI",
-          "href": "#AI",
-          "class": "smooth"
-        },
-        {
-          "name": "Other",
-          "href": "#other",
-          "class": "smooth",
-          "badge": {
-            "text": "Hot",
-            "class": "label-pink"
-          }
-        }
-      ]
+      "class": "smooth",
+      "href": "#github",
+      "badge": {
+        "text": "Hot",
+        "class": "label-pink"
+      }
     },
     {
       "name": "导航网站",
       "icon": "linecons-star",
       "href": "#导航网站",
+      "class": "smooth"
+    },
+    {
+      "name": "Other",
+      "icon": "linecons-cog",
+      "href": "#Other",
       "class": "smooth"
     },
     {
@@ -75,12 +78,6 @@
         "text": "♥︎",
         "class": "label-Primary"
       }
-    },
-    {
-      "name": "推荐",
-      "icon": "linecons-cog",
-      "href": "#推荐",
-      "class": "smooth"
     }
   ],
   "categories": {
@@ -121,7 +118,7 @@
         "label": "label-info"
       }
     ],
-    "推荐": [
+    "Other": [
       {
         "name": "阿里云",
         "url": "https://www.aliyun.com",
@@ -202,6 +199,13 @@
         "logo": "./assets/images/logos/ollama.avif",
         "description": "Ollama 是快速上手使用大型语言模型（如 gpt-oss、Gemma 3、DeepSeek-R1、Qwen3 等）的最简单方法。",
         "label": "label-info"
+      },
+      {
+        "name": "AI-Trader",
+        "url": "https://github.com/HKUDS/AI-Trader",
+        "logo": "./assets/images/logos/AI-Trader-logo.png",
+        "description": "一个AI交易代理系统，让多个大语言模型在纳斯达克100、上证50和加密货币市场中完全自主决策、同台竞技！",
+        "label": "label-info"
       }
     ],
     "前端资源": [
@@ -250,16 +254,7 @@
         "label": "label-info"
       }
     ],
-    "AI": [
-      {
-        "name": "AI-Trader",
-        "url": "https://github.com/HKUDS/AI-Trader",
-        "logo": "./assets/images/logos/AI-Trader-logo.png",
-        "description": "一个AI交易代理系统，让多个大语言模型在纳斯达克100、上证50和加密货币市场中完全自主决策、同台竞技！",
-        "label": "label-info"
-      }
-    ],
-    "other": [
+    "github": [
       {
         "name": "面试导航",
         "url": "https://github.com/AnsonZnl/interview-nav",
@@ -295,15 +290,24 @@
       {
         "name": "WTF Academy",
         "url": "https://www.wtf.academy/zh",
-        "logo": "./assets/images/logos/default.png",
+        "logo": "https://www.wtf.academy/favicon.ico",
         "description": "WTF Academy 提供以太坊和区块链技术的深入学习资源，涵盖智能合约开发、去中心化应用等内容，助力开发者掌握前沿技术。",
         "label": "label-info"
       },
       {
         "name": "Solidity 文档",
         "url": "https://docs.soliditylang.org/",
-        "logo": "./assets/images/logos/default.png",
+        "logo": "https://docs.soliditylang.org/en/v0.8.31/_static/img/logo.svg",
         "description": "Solidity 是以太坊智能合约的主要编程语言，这里是其官方文档，包含语法、最佳实践和示例代码。",
+        "label": "label-info"
+      }
+    ],
+    "Redis": [
+      {
+        "name": "Redis 命令参考",
+        "url": "http://doc.redisfans.com/",
+        "logo": "https://redis.io/icon.png",
+        "description": "Redis 命令参考，包含常用命令的详细说明和示例。",
         "label": "label-info"
       }
     ]
