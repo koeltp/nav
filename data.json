@@ -170,6 +170,13 @@
         "label": "label-info"
       },
       {
+        "name": "从零开始构建智能体",
+        "url": "https://datawhalechina.github.io/hello-agents",
+        "logo": "./assets/images/logos/githublogo.png",
+        "description": "从基础理论到实际应用，全面掌握智能体系统的设计与实现。",
+        "label": "label-info"
+      },
+      {
         "name": "DeepSeek API文档",
         "url": "https://www.deepseek.com/",
         "logo": "./assets/images/logos/deepseek.svg",
@@ -241,7 +248,7 @@
       {
         "name": "面试导航",
         "url": "https://github.com/AnsonZnl/interview-nav",
-        "logo": "./assets/images/logos/default.png",
+        "logo": "./assets/images/logos/githublogo.png",
         "description": "这个仓库收集 IT 行业各个岗位的优质面试题资源和简历编写指南，这些资源可以帮助大家找到满意的工作。",
         "label": "label-info"
       },
@@ -319,7 +326,7 @@
       {
         "name": "JSon在线解析工具",
         "url": "https://www.sojson.com/",
-        "logo": "https://scdn.sojson.com/sojson/favicon32.png",
+        "logo": "./assets/images/logos/default.png",
         "description": "提供在线 JSON 格式化、校验和转换等功能，方便开发者处理 JSON 数据。",
         "label": "label-info"
       },
