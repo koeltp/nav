@@ -31,8 +31,8 @@
           "class": "smooth"
         },
         {
-          "name": "Redis",
-          "href": "#Redis",
+          "name": "Database",
+          "href": "#Database",
           "class": "smooth"
         },
         {
@@ -68,6 +68,12 @@
       "name": "工具",
       "icon": "fa-wrench",
       "href": "#工具",
+      "class": "smooth"
+    },
+    {
+      "name": "电子榨菜",
+      "icon": "fa fa-film",
+      "href": "#电子榨菜",
       "class": "smooth"
     },
     {
@@ -170,10 +176,45 @@
         "label": "label-info"
       },
       {
+        "name": "AgentScope",
+        "url": "https://doc.agentscope.io/zh_CN/",
+        "logo": "https://doc.agentscope.io/zh_CN/_static/logo.svg",
+        "description": "AgentScope：面向代理的LLM应用程序构建编程。",
+        "label": "label-info"
+      },
+      {
+        "name": "魔搭社区",
+        "url": "https://www.modelscope.cn/",
+        "logo": "https://registry.npmmirror.com/@lobehub/icons-static-png/1.75.0/files/dark/modelscope-color.png",
+        "description": "AutoGen是一个用于创建多智能体 AI 应用的框架，这些应用可以自主运行或与人类协同工作。",
+        "label": "label-info"
+      },
+      {
+        "name": "CAMEL",
+        "url": "https://www.camel-ai.org/",
+        "logo": "./assets/images/logos/CAMELLogo.png",
+        "description": "🐫 CAMEL 是一个开源社区，致力于探索智能体的规模化规律。我们相信，在大规模条件下研究这些智能体，可以为其行为、能力以及潜在风险提供宝贵的洞见。为了推动该领域的研究，我们实现并支持多种类型的智能体、任务、提示词、模型和模拟环境。",
+        "label": "label-info"
+      },
+      {
+        "name": "AutoGen",
+        "url": "https://microsoft.github.io/autogen/stable/index.html",
+        "logo": "./assets/images/logos/githublogo.png",
+        "description": "AutoGen是一个用于创建多智能体 AI 应用的框架，这些应用可以自主运行或与人类协同工作。",
+        "label": "label-info"
+      },
+      {
         "name": "从零开始构建智能体",
         "url": "https://datawhalechina.github.io/hello-agents",
         "logo": "./assets/images/logos/githublogo.png",
         "description": "从基础理论到实际应用，全面掌握智能体系统的设计与实现。",
+        "label": "label-info"
+      },
+      {
+        "name": "从零开始构建多智能体",
+        "url": "https://datawhalechina.github.io/handy-multi-agent",
+        "logo": "./assets/images/logos/githublogo.png",
+        "description": "一套专为深入了解并实践多智能体系统的开发者设计的实用指南。",
         "label": "label-info"
       },
       {
@@ -281,6 +322,12 @@
         "logo": "https://lf-cdn.marscode.cn/obj/marscode-bucket-cn/icube-mars/static/image/app_icon_152.png",
         "description": "掘金刷题平台，提供丰富的编程题库和在线评测，帮助开发者提升编程能力。",
         "label": "label-info"
+      },{
+        "name": "犬小哈",
+        "url": "https://www.quanxiaoha.com/",
+        "logo": "https://img.quanxiaoha.com/quanxiaoha/171698116747384",
+        "description": "犬小哈是一个包含Docker教程/go语言教程/vue3教程和破解各种工具的优秀博客。",
+        "label": "label-info"
       }
     ],
     "Eth": [
@@ -306,12 +353,18 @@
         "label": "label-info"
       }
     ],
-    "Redis": [
+    "Database": [
       {
         "name": "Redis 命令参考",
         "url": "http://doc.redisfans.com/",
         "logo": "https://redis.io/icon.png",
         "description": "Redis 命令参考，包含常用命令的详细说明和示例。",
+        "label": "label-info"
+      },{
+        "name": "Qdrant教程",
+        "url": "https://qdrant.org.cn/documentation/",
+        "logo": "./assets/images/logos/qdrant-brandmark-red.png",
+        "description": "Qdrant 是一个 AI 原生向量数据库和语义搜索引擎。您可以使用它从非结构化数据中提取有意义的信息。",
         "label": "label-info"
       }
     ],
@@ -335,6 +388,22 @@
         "url": "https://haoweichi.com/",
         "logo": "https://haoweichi.com/Public/img/haoweichi.ico",
         "description": "随机生成虚构美国身份，包括姓名，地址，电话，职称，信用卡，身高，体重等信息，获取美国人信息，获取美国人地址",
+        "label": "label-info"
+      }
+    ],
+    "电子榨菜": [
+      {
+        "name": "不当人子的系统",
+        "url": "https://www.bilibili.com/video/BV1cB49z3EUp/?spm_id_from=333.1387.0.0&vd_source=c6de1c3151a3881a55654f6e55752c5b",
+        "logo": "./assets/images/logos/bilibili.png",
+        "description": "不当人子的系统老六",
+        "label": "label-info"
+      },
+      {
+        "name": "狂妃驯疯王",
+        "url": "https://www.bilibili.com/video/BV1QgzMY1EjD/?spm_id_from=333.1387.0.0&vd_source=c6de1c3151a3881a55654f6e55752c5b",
+        "logo": "./assets/images/logos/bilibili.png",
+        "description": "狂妃驯疯王",
         "label": "label-info"
       }
     ],
