@@ -185,7 +185,7 @@
       {
         "name": "魔搭社区",
         "url": "https://www.modelscope.cn/",
-        "logo": "https://registry.npmmirror.com/@lobehub/icons-static-png/1.75.0/files/dark/modelscope-color.png",
+        "logo": "./assets/images/logos/modelscope-color.png",
         "description": "AutoGen是一个用于创建多智能体 AI 应用的框架，这些应用可以自主运行或与人类协同工作。",
         "label": "label-info"
       },
@@ -325,7 +325,7 @@
       },{
         "name": "犬小哈",
         "url": "https://www.quanxiaoha.com/",
-        "logo": "https://img.quanxiaoha.com/quanxiaoha/171698116747384",
+        "logo": "./assets/images/logos/quanxiaoha.jpg",
         "description": "犬小哈是一个包含Docker教程/go语言教程/vue3教程和破解各种工具的优秀博客。",
         "label": "label-info"
       }
@@ -393,17 +393,57 @@
     ],
     "电子榨菜": [
       {
-        "name": "不当人子的系统",
-        "url": "https://www.bilibili.com/video/BV1cB49z3EUp/?spm_id_from=333.1387.0.0&vd_source=c6de1c3151a3881a55654f6e55752c5b",
+        "name": "回到七零当社牛",
+        "url": "https://www.bilibili.com/video/BV18w411W76u?spm_id_from=333.788.videopod.sections&vd_source=c6de1c3151a3881a55654f6e55752c5b",
         "logo": "./assets/images/logos/bilibili.png",
-        "description": "不当人子的系统老六",
+        "description": "社牛型的沙雕动画",
+        "label": "label-info"
+      },{
+        "name": "不当人子的系统",
+        "url": "https://space.bilibili.com/589953538?spm_id_from=333.788.upinfo.detail.click",
+        "logo": "./assets/images/logos/bilibili.png",
+        "description": "搞笑型的沙雕动画",
         "label": "label-info"
       },
       {
         "name": "狂妃驯疯王",
         "url": "https://www.bilibili.com/video/BV1QgzMY1EjD/?spm_id_from=333.1387.0.0&vd_source=c6de1c3151a3881a55654f6e55752c5b",
         "logo": "./assets/images/logos/bilibili.png",
-        "description": "狂妃驯疯王",
+        "description": "穿越类的沙雕动画",
+        "label": "label-info"
+      },
+      {
+        "name": "陈小贰的故",
+        "url": "https://space.bilibili.com/31786758?spm_id_from=333.788.upinfo.detail.click",
+        "logo": "./assets/images/logos/bilibili.png",
+        "description": "音乐类型的沙雕动画",
+        "label": "label-info"
+      },
+      {
+        "name": "躺赢宗的修仙生活",
+        "url": "https://space.bilibili.com/3546676318964120/lists/5477038?type=season",
+        "logo": "./assets/images/logos/bilibili.png",
+        "description": "脑洞非常大的沙雕动画",
+        "label": "label-info"
+      },
+      {
+        "name": "芊小棘",
+        "url": "https://www.bilibili.com/list/3546624244582898?sort_field=pubtime&spm_id_from=333.1387.0.0&oid=113051139312411&bvid=BV1cgHEevECr&desc=0",
+        "logo": "./assets/images/logos/bilibili.png",
+        "description": "姐妹双双重生沙雕动画",
+        "label": "label-info"
+      },   {
+        "name": "咸有老六问其宗",
+        "url": "https://www.bilibili.com/video/BV1P3s7zKE8z/?spm_id_from=333.1387.0.0&vd_source=c6de1c3151a3881a55654f6e55752c5b",
+        "logo": "./assets/images/logos/bilibili.png",
+        "description": "修仙型沙雕动画",
+        "label": "label-info"
+      },
+      {
+        "name": "小桃红动画",
+        "url": "https://www.bilibili.com/list/3546602922838621?sort_field=pubtime&spm_id_from=333.1387.0.0&oid=240670532&bvid=BV1be411v728&desc=0",
+        "logo": "./assets/images/logos/bilibili.png",
+        "description": "沙雕动画",
         "label": "label-info"
       }
     ],
