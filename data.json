@@ -306,6 +306,13 @@
         "logo": "./assets/images/logos/typewordslogo.png",
         "description": "练习英语，一次敲击，一点进步。",
         "label": "label-info"
+      },
+      {
+        "name": "ApeVolo 中后台管理系统",
+        "url": "https://github.com/xianhc/ape-volo-admin",
+        "logo": "./assets/images/logos/githublogo.png",
+        "description": ".Net 8 、SqlSugar ORM、Vue 2.X、RBAC。前后端分离的开箱则用的企业级的权限开发框架。",
+        "label": "label-info"
       }
     ],
     "优秀博客": [
@@ -322,7 +329,8 @@
         "logo": "https://lf-cdn.marscode.cn/obj/marscode-bucket-cn/icube-mars/static/image/app_icon_152.png",
         "description": "掘金刷题平台，提供丰富的编程题库和在线评测，帮助开发者提升编程能力。",
         "label": "label-info"
-      },{
+      },
+      {
         "name": "犬小哈",
         "url": "https://www.quanxiaoha.com/",
         "logo": "./assets/images/logos/quanxiaoha.jpg",
@@ -360,7 +368,8 @@
         "logo": "https://redis.io/icon.png",
         "description": "Redis 命令参考，包含常用命令的详细说明和示例。",
         "label": "label-info"
-      },{
+      },
+      {
         "name": "Qdrant教程",
         "url": "https://qdrant.org.cn/documentation/",
         "logo": "./assets/images/logos/qdrant-brandmark-red.png",
@@ -398,7 +407,8 @@
         "logo": "./assets/images/logos/bilibili.png",
         "description": "社牛型的沙雕动画",
         "label": "label-info"
-      },{
+      },
+      {
         "name": "不当人子的系统",
         "url": "https://space.bilibili.com/589953538?spm_id_from=333.788.upinfo.detail.click",
         "logo": "./assets/images/logos/bilibili.png",
@@ -432,7 +442,8 @@
         "logo": "./assets/images/logos/bilibili.png",
         "description": "姐妹双双重生沙雕动画",
         "label": "label-info"
-      },   {
+      },
+      {
         "name": "咸有老六问其宗",
         "url": "https://www.bilibili.com/video/BV1P3s7zKE8z/?spm_id_from=333.1387.0.0&vd_source=c6de1c3151a3881a55654f6e55752c5b",
         "logo": "./assets/images/logos/bilibili.png",
