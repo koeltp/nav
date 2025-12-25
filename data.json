@@ -1,33 +1,17 @@
 {
   "navigation": [
     {
-      "name": "应用",
-      "icon": "fa fa-android",
-      "submenu": [
-        {
-          "name": "AI应用",
-          "href": "#AI应用",
-          "class": "smooth"
-        },
-        {
-          "name": "邮箱",
-          "href": "#邮箱",
-          "class": "smooth"
-        }
-      ]
-    },
-    {
       "name": "Tech",
       "icon": "fa-desktop",
       "submenu": [
         {
-          "name": "Python",
-          "href": "#Python",
+          "name": "AI Docs",
+          "href": "#AIDocs",
           "class": "smooth"
         },
         {
-          "name": "AI Docs",
-          "href": "#AIDocs",
+          "name": "Python",
+          "href": "#Python",
           "class": "smooth"
         },
         {
@@ -41,12 +25,6 @@
           "class": "smooth"
         }
       ]
-    },
-    {
-      "name": "前端资源",
-      "icon": "fa-html5",
-      "href": "#前端资源",
-      "class": "smooth"
     },
     {
       "name": "GitHub 精选",
@@ -65,10 +43,32 @@
       "class": "smooth"
     },
     {
-      "name": "工具",
-      "icon": "fa-wrench",
-      "href": "#工具",
+      "name": "前端资源",
+      "icon": "fa-html5",
+      "href": "#前端资源",
       "class": "smooth"
+    },
+    {
+      "name": "应用",
+      "icon": "fa fa-android",
+      "submenu": [
+        {
+          "name": "AI应用",
+          "href": "#AI应用",
+          "class": "smooth"
+        },
+        {
+          "name": "邮箱",
+          "href": "#邮箱",
+          "class": "smooth"
+        },
+        {
+          "name": "工具",
+          "icon": "fa-wrench",
+          "href": "#工具",
+          "class": "smooth"
+        }
+      ]
     },
     {
       "name": "电子榨菜",
@@ -127,43 +127,6 @@
         "url": "https://www.google.com/",
         "logo": "./assets/images/logos/google.png",
         "description": "全球最大的UI学习分享平台",
-        "label": "label-info"
-      }
-    ],
-    "邮箱": [
-      {
-        "name": "QQ邮箱",
-        "url": "https://mail.qq.com/",
-        "logo": "./assets/images/logos/qqmail_logo.png",
-        "description": "QQ邮箱，常联系！",
-        "label": "label-info"
-      },
-      {
-        "name": "163邮箱",
-        "url": "https://mail.163.com/",
-        "logo": "./assets/images/logos/mail163logo.webp",
-        "description": "你的专业电子邮局",
-        "label": "label-info"
-      },
-      {
-        "name": "阿里企业邮箱",
-        "url": "https://qiye.aliyun.com/",
-        "logo": "./assets/images/logos/emailalilogo.ico",
-        "description": "阿里云企业邮箱，专业、安全、稳定",
-        "label": "label-info"
-      },
-      {
-        "name": "谷歌邮箱",
-        "url": "https://mail.google.com/",
-        "logo": "./assets/images/logos/gmaillogo.webp",
-        "description": "Google邮箱，全球使用最广泛的邮箱服务",
-        "label": "label-info"
-      },
-      {
-        "name": "proton邮箱",
-        "url": "https://account.proton.me/mail",
-        "logo": "./assets/images/logos/protonmail.webp",
-        "description": "安全加密邮箱，保护你的隐私",
         "label": "label-info"
       }
     ],
@@ -241,10 +204,38 @@
     ],
     "前端资源": [
       {
+        "name": "vuejs",
+        "url": "https://cn.vuejs.org",
+        "logo": "https://cn.vuejs.org/logo.svg",
+        "description": "易学易用，性能出色，适用场景丰富的 Web 前端框架。",
+        "label": "label-info"
+      },
+      {
+        "name": "Element Plus‌",
+        "url": "https://element-plus.org",
+        "logo": "https://element-plus.org/images/element-plus-logo-small.svg",
+        "description": "基于 Vue 3，面向设计师和开发者的组件库。",
+        "label": "label-info"
+      },
+      {
+        "name": "Vant",
+        "url": "https://vant.pro",
+        "logo": "https://fastly.jsdelivr.net/npm/@vant/assets/logo.png",
+        "description": "轻量、可定制的移动端 Vue 组件库。",
+        "label": "label-info"
+      },
+      {
         "name": "微前端",
         "url": "https://jd-opensource.github.io/micro-app/docs.html#/",
         "logo": "./assets/images/logos/jdmicroapplogo.png",
         "description": "京东微前端开源框架，支持多种技术栈，助力构建大型复杂应用。",
+        "label": "label-info"
+      },
+      {
+        "name": "Vben Admin",
+        "url": "https://doc.vben.pro",
+        "logo": "./assets/images/logos/vbenlogo.png",
+        "description": "Vben Admin 企业级管理系统框架，开箱即用，简单高效。",
         "label": "label-info"
       }
     ],
@@ -379,17 +370,17 @@
     ],
     "工具": [
       {
-        "name": "在线工具",
-        "url": "https://tool.lu/mine/",
-        "logo": "https://tool.lu/favicon.ico",
-        "description": "提供各种实用的在线工具，方便日常工作和学习。",
+        "name": "太皮工具箱",
+        "url": "https://tools.taipi.top",
+        "logo": "https://tools.taipi.top/images/favicon.png",
+        "description": "太皮工具箱——开发者的瑞士军刀：集成多种实用工具，满足您的各种需求，助您高效工作。",
         "label": "label-info"
       },
       {
-        "name": "JSon在线解析工具",
-        "url": "https://www.sojson.com/",
-        "logo": "./assets/images/logos/default.png",
-        "description": "提供在线 JSON 格式化、校验和转换等功能，方便开发者处理 JSON 数据。",
+        "name": "iconfont",
+        "url": "https://www.iconfont.cn/",
+        "logo": "./assets/images/logos/iconfontlogo.svg",
+        "description": "阿里巴巴矢量图标库，提供海量免费矢量图标下载与在线编辑服务。",
         "label": "label-info"
       },
       {
@@ -397,6 +388,50 @@
         "url": "https://haoweichi.com/",
         "logo": "https://haoweichi.com/Public/img/haoweichi.ico",
         "description": "随机生成虚构美国身份，包括姓名，地址，电话，职称，信用卡，身高，体重等信息，获取美国人信息，获取美国人地址",
+        "label": "label-info"
+      },
+      {
+        "name": "Rufus",
+        "url": "https://rufus.ie/zh",
+        "logo": "https://rufus.ie/pics/rufus-128.png",
+        "description": "轻松创建U盘装系统，仅1.8M大小，简洁、无广告。",
+        "label": "label-info"
+      }
+    ],
+    "邮箱": [
+      {
+        "name": "QQ邮箱",
+        "url": "https://mail.qq.com/",
+        "logo": "./assets/images/logos/qqmail_logo.png",
+        "description": "QQ邮箱，常联系！",
+        "label": "label-info"
+      },
+      {
+        "name": "163邮箱",
+        "url": "https://mail.163.com/",
+        "logo": "./assets/images/logos/mail163logo.webp",
+        "description": "你的专业电子邮局",
+        "label": "label-info"
+      },
+      {
+        "name": "阿里企业邮箱",
+        "url": "https://qiye.aliyun.com/",
+        "logo": "./assets/images/logos/emailalilogo.ico",
+        "description": "阿里云企业邮箱，专业、安全、稳定",
+        "label": "label-info"
+      },
+      {
+        "name": "谷歌邮箱",
+        "url": "https://mail.google.com/",
+        "logo": "./assets/images/logos/gmaillogo.webp",
+        "description": "Google邮箱，全球使用最广泛的邮箱服务",
+        "label": "label-info"
+      },
+      {
+        "name": "proton邮箱",
+        "url": "https://account.proton.me/mail",
+        "logo": "./assets/images/logos/protonmail.webp",
+        "description": "安全加密邮箱，保护你的隐私",
         "label": "label-info"
       }
     ],
