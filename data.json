@@ -304,6 +304,27 @@
         "logo": "./assets/images/logos/githublogo.png",
         "description": ".Net 8 、SqlSugar ORM、Vue 2.X、RBAC。前后端分离的开箱则用的企业级的权限开发框架。",
         "label": "label-info"
+      },
+      {
+        "name": "兑币机 - Telegram Bot",
+        "url": "https://github.com/LightCountry/CoinConvertBot",
+        "logo": "./assets/images/logos/githublogo.png",
+        "description": "一款基于 Telegram Bot 的加密货币兑换工具，支持多种主流币种的实时兑换和价格查询，方便用户随时随地进行数字资产管理。",
+        "label": "label-info"
+      },
+      {
+        "name": "独角数卡",
+        "url": "https://github.com/LightCountry/dujiaoka",
+        "logo": "./assets/images/logos/githublogo.png",
+        "description": "一款开源的数字商品交易平台，支持多种支付方式和商品类型，适合个人和小型企业使用。",
+        "label": "label-info"
+      },
+      {
+        "name": "微信公众号服务器",
+        "url": "https://github.com/songquanpeng/wechat-server",
+        "logo": "./assets/images/logos/githublogo.png",
+        "description": "用以微信公众号的后端，提供登录验证功能。",
+        "label": "label-info"
       }
     ],
     "优秀博客": [
@@ -312,6 +333,13 @@
         "url": "https://liaoxuefeng.com/",
         "logo": "https://liaoxuefeng.com/static/logo.svg",
         "description": "廖雪峰的官方网站，提供高质量的编程教程和技术文章，涵盖 Python、JavaScript、Git 等多个领域。",
+        "label": "label-info"
+      },
+      {
+        "name": "Hello 算法",
+        "url": "https://www.hello-algo.com",
+        "logo": "https://www.hello-algo.com/assets/images/logo.svg",
+        "description": "动画图解、一键运行的数据结构与算法教程，500 幅动画图解、14 种编程语言代码、3000 条社区问答，助你快速入门数据结构与算法。",
         "label": "label-info"
       },
       {
