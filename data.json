@@ -353,7 +353,14 @@
         "name": "犬小哈",
         "url": "https://www.quanxiaoha.com/",
         "logo": "./assets/images/logos/quanxiaoha.jpg",
-        "description": "犬小哈是一个包含Docker教程/go语言教程/vue3教程和破解各种工具的优秀博客。",
+        "description": "犬小哈是一个包含Docker教程/go语言教程/vue3教程和激活各种开发工具的优秀博客。",
+        "label": "label-info"
+      },
+      {
+        "name": "KMS.CX",
+        "url": "https://kms.cx",
+        "logo": "./assets/images/logos/default.png",
+        "description": "一键激活 Windows 和 Office，支持离线激活，永久免费使用。",
         "label": "label-info"
       }
     ],
