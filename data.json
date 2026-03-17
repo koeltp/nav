@@ -128,9 +128,22 @@
         "logo": "./assets/images/logos/google.png",
         "description": "全球最大的UI学习分享平台",
         "label": "label-info"
+      },{
+        "name": "通义千问",
+        "url": "https://www.qianwen.com/",
+        "logo": "./assets/images/logos/qianwen.png",
+        "description": "通义千问是阿里巴巴集团推出的大语言模型，具备强大的对话理解和生成能力。",
+        "label": "label-info"
       }
     ],
     "AIDocs": [
+      {
+        "name": "百练大模型服务平台",
+        "url": "https://bailian.console.aliyun.com/",
+        "logo": "https://gw.alicdn.com/imgextra/i4/O1CN01vVn7g32134zNZEeAR_!!6000000006928-55-tps-24-24.svg",
+        "description": "ChatGPT 官方文档，提供 API 参考、示例代码和最佳实践，帮助开发者轻松集成 ChatGPT 功能。",
+        "label": "label-info"
+      },
       {
         "name": "LangChain",
         "url": "https://docs.langchain.com/",
@@ -518,6 +531,13 @@
         "url": "https://www.bilibili.com/video/BV1P3s7zKE8z/?spm_id_from=333.1387.0.0&vd_source=c6de1c3151a3881a55654f6e55752c5b",
         "logo": "./assets/images/logos/bilibili.png",
         "description": "修仙型沙雕动画",
+        "label": "label-info"
+      },
+      {
+        "name": "灵种奇谈",
+        "url": "https://www.bilibili.com/video/BV1zKwdzCEja",
+        "logo": "./assets/images/logos/bilibili.png",
+        "description": "柒晓迪动画工作室出品的沙雕动画，修仙搞笑类型的沙雕动画。",
         "label": "label-info"
       },
       {
