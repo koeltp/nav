@@ -514,7 +514,7 @@
       {
         "name": "陈小贰的故",
         "url": "https://space.bilibili.com/31786758?spm_id_from=333.788.upinfo.detail.click",
-        "logo": "https://cdn.taipi.top/img/toplogo.png",
+        "logo": "./assets/images/logos/bilibili.png",
         "description": "音乐类型的沙雕动画",
         "label": "label-info"
       },
