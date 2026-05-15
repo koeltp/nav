@@ -250,6 +250,25 @@
         "logo": "./assets/images/logos/vbenlogo.png",
         "description": "Vben Admin 企业级管理系统框架，开箱即用，简单高效。",
         "label": "label-info"
+      },
+      {
+        "name": "Icons Lucide",
+        "url": "https://lucide.dev/",
+        "logo": "./assets/images/logos/lucidelogo.svg",
+        "description": "lucide 是一个开源的图标库，提供了一套简洁、现代的图标设计，适用于各种项目和应用场景。",
+        "label": "label-info"
+      },{
+        "name": "IconPark",
+        "url": "https://iconpark.oceanengine.com/official",
+        "logo": "./assets/images/logos/IconPark.svg",
+        "description": "IconPark 是字节跳动推出的开源图标库，提供了丰富多样的图标资源，适用于各种设计和开发需求。",
+        "label": "label-info"
+      },{
+        "name": "Font Awesome",
+        "url": "https://www.iconfont.cn/",
+        "logo": "./assets/images/logos/iconfont.svg",
+        "description": "Iconfont 是阿里巴巴推出的一款字体图标库，提供了大量的矢量图标，适用于各种项目和应用场景。",
+        "label": "label-info"
       }
     ],
     "Python": [
