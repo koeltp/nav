@@ -224,6 +224,19 @@
         "label": "label-info"
       },
       {
+        "name": "React",
+        "url": "https://react.dev/",
+        "logo": "https://react.dev/favicon.ico",
+        "description": "由 Facebook 开发的高效、灵活的 JavaScript 库，用于构建用户界面。",
+        "label": "label-info"
+      },{
+        "name": "Ant Design",
+        "url": "https://ant.design",
+        "logo": "./assets/images/logos/antlogo.svg",
+        "description": "由 Google 维护的 TypeScript 框架，适用于构建复杂的单页应用。",
+        "label": "label-info"
+      },
+      {
         "name": "Element Plus‌",
         "url": "https://element-plus.org",
         "logo": "https://element-plus.org/images/element-plus-logo-small.svg",
