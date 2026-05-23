@@ -20,8 +20,8 @@
           "class": "smooth"
         },
         {
-          "name": "ETH",
-          "href": "#Eth",
+          "name": "区块链",
+          "href": "#区块链",
           "class": "smooth"
         }
       ]
@@ -415,7 +415,14 @@
         "label": "label-info"
       }
     ],
-    "Eth": [
+    "区块链": [
+      {
+        "name": "DeCert",
+        "url": "https://decert.me/",
+        "logo": "./assets/images/logos/decert.ico",
+        "description": "DeCert 是一个去中心化的技能学习与认证平台。",
+        "label": "label-info"
+      },
       {
         "name": "WTF Academy",
         "url": "https://www.wtf.academy/zh",
